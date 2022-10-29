@@ -1,0 +1,80 @@
+@media screen and (max-width:855px) {
+
+ /* header section starts here */
+ .header-section-container{
+     padding: 0;
+    }
+    
+    .navmobile{display: flex;}
+    
+    .nav-desktop{display: none;}
+    
+    .header-text-container-holder{
+        margin: 50px 0;
+    }
+
+    .header-text-container{
+        min-width: 100%;
+        padding: 15px 10px;
+    }
+    
+    
+ .header-text-container button{
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.header-text-container h3{
+    font-size: 25px;
+    margin: 48px 0 30px 20px;
+    text-align: center;
+}
+
+.header-text-container p{
+    font-size: 24.5px;
+    font-weight: lighter;
+    margin: 15px 0 0 8px;
+}
+/* header section ends here */
+
+/* no midification for about us section was done on the mobile view */
+
+/* redirect section starts here */
+.button-holder{
+    padding:30px 18px 8px 18px;
+}
+
+.button-holder button{
+    padding: 10px 12px;
+    font-size: 14px;
+
+}
+
+.button-holder span{
+    font-size: 15px;
+}
+/* redirect section ends here */
+
+/* footer section starts here */
+
+
+
+footer{ 
+    padding: 15px  25px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+footer p {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.span2{display: inline;}
+.span1{display: none;}
+/* .footer-icon-holder{min-width: 150px;} */
+/* footer section ends here */
+
+}
